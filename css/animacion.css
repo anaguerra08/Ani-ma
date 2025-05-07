@@ -1,0 +1,12 @@
+@keyframes Carrusel {
+    0%{
+        height: 100%;
+    }
+    25%{
+        height: 120%;
+    }
+    50%{
+        height: 50%;
+    }
+
+}
