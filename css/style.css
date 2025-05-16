@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #6b8f72; */
+    background-image: url(../recursos/imgPortada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img1{
+    width: 500px;
+    height: auto;
+    margin-left: 10%;
+    /* background-color: #6b8f72; */
+}
+
+.articulo1{ /*Sobremi Redessociales*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textInfo{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textInfoImg{
+    height: 18px;
+    width: auto;
+    overflow: none;
+}
+
+.seccion1{
+    width: 50%;
+    height: auto;
+    padding: 2%;
+    overflow: none;
+}
+
+.articulo2{ /*Mision Vision*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seccion2{
+    width: 50%;
+    height: auto;
+    padding: 2%;
+    overflow: none;
+    text-align: center;
+}
+
+.articulo3{ /*Servicios*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    justify-content: space-between;
+}
+
+.seccion3{
+    width: 40%;
+    height: auto;
+    padding: 2%;
+    overflow: none;
+    text-align: right;
+}
+
+.seccion4{
+    width: 60%;
+    height: auto;
+    padding: 2%;
+    overflow: none;
+    text-align: right;
+}
+
+.seccion3_1{
+    display: flex;
+    align-items: center; 
+    gap: 5px; 
+}
+
+.img2{
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    padding: 5px;
+    box-shadow: 5px 5px #000000;
+}
+
+.carrusel{ /*Carrusel*/
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.carrusel ul{
+    display: flex;
+    padding: 0;
+    width: 200%;
+    margin-left: 0;
+    transition: 0.5s;
+}
+
+.carrusel li{
+    width: 25%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.liElementos{
+    width: 60%;
+    height: 90%;
+    list-style: none;
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    /* border-width: 1px; */
+    /* border-style: solid;
+    border-color: #4b6851; */
+    position: relative;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+.carrusel1{
+    transition: .2s ease-in-out;
+}
+.carrusel1:hover{
+    content: url('recursos/carrusel1.2.png');
+}
+
+/*CARRUSEL*/
+
+.imgCarrusel1{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    transition: height 0.5s ease-in-out;
+
+}
+
+.imgCarrusel1:hover{
+    animation: Carrusel 1s ease-in-out;
+}
+
+#contenedorFormulario{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2%;
+}
+
+.contForm{
+    width: 100%;
+    background-color: #4b6851;
+    padding: 2%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-texto{
+    width: 80%;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.input-texto2{
+    width: 80%;
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.input-texto:focus {
+    border-color: #6b8f72;
+    outline: none;
+    box-shadow: 0 0 10px #dccbd3;
+    transition: ease-in .3s;
+}
+
+.btn-guardar{
+    width: 60%;
+    height: 50px;
+    border: 1px solid #6b8f72;
+    border-radius: 50px;
+    background-color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #6b8f72;
+}
+
+hr{
+    width: 80%;
+    height: 2px;
+    background-color: #000000;
+    margin-left: 10%;
+}
+
+footer{
+    background-color: #6b8f72;
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    overflow: none;
+}
+
+.logo{
+    width: auto;
+    height:150px;
+    position: absolute;
+    left: 120px;
+    z-index: 0;
+}

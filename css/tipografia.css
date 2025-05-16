@@ -1,0 +1,93 @@
+@font-face{
+    font-family: Thunder;
+    src: url(../recursos/ALoveOfThunder.ttf)
+}
+
+h1{
+    font-family: Thunder;
+    font-size: 50px;
+}
+
+h2{
+    font-family: Thunder;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+h3{
+    font-family: Thunder;
+    font-size: 40px;
+    color: #6b8f72;
+    position: absolute;
+    
+}
+
+h4{
+    width: fit-content;
+    padding: 5px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    color: #eaebe4;
+    background-color: #6b8f72;
+}
+h6{
+    font-family: "Work Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #2b2b2b;
+}
+
+p, li{
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
+}
+
+a{
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
+    text-decoration: none;
+    color: #000000;
+}
+
+.pServicio{
+    width: fit-content;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    padding: 5px;
+    box-shadow: 5px 5px #000000;
+
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    margin-left: auto;
+    display: block;
+}
+
+.pBoton{
+    width: fit-content;
+    border: 1px solid #6b8f72;
+    border-radius: 50px;
+    padding: 5px;
+    box-shadow: 5px 5px #6b8f72;
+
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #6b8f72;
+}
+
+.pBoton{
+    width: fit-content;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    padding: 5px;
+    box-shadow: 5px 5px #000000;
+
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}

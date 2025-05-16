@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #eaebe4;
+}
+
+#cuerpo{
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 1%;
+    overflow: none;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.texto{
+    width: 80%;
+    height: auto;
+    padding: 2%;
+    overflow: none;
+}
